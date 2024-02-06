@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Aniversário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Seu Aniversário</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#schedule">Programação</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Um novo ciclo se inicia, celebrando mais um ano de vida e novas oportunidades. Junte-se a mim nesta jornada cheia de amor e alegria!</p>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Programação</h2>
+            <p>Prepare-se para uma festa cheia de risos, música e momentos memoráveis! Em breve compartilharei a programação completa. Aguarde!</p>
+        </div>
+    </section>
+
+    <section id="rsvp">
+        <div class="container">
+            <h2>RSVP</h2>
+            <p>Sua presença é o melhor presente que eu poderia receber! Por favor, confirme sua participação preenchendo o formulário abaixo.</p>
+            <form action="#" method="POST">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="guests">Número de convidados:</label><br>
+                <input type="number" id="guests" name="guests"><br><br>
+                <input type="submit" value="Confirmar Presença">
+            </form>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
